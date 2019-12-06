@@ -19,7 +19,7 @@ const axiosConfig = {
 };
 
 if(__DEV__) {
-	axiosConfig.baseURL = "https://dev.acceptableice.com/api";
+	axiosConfig.baseURL = "https://dev.maybreak.com/api";
 }
 
 const client = axios.create(axiosConfig);
